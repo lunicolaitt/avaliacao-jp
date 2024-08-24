@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Luiza">
+    <meta name="keywords" content="portfolio, Luiza">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Meu portfólio </title>
+    <link rel="stylesheet" href="./styles/1-html-basico.css">
+</head>
+<body>
+      <header id="cabecalho"> 
+      <h1>  </h1>
+      <a class= btn href="index.html">Voltar</a>
+     
+     </header>
+      
+ 
+   <main class="container"> 
+    
+      <section>
+        <h2> Obrigada Pela atenção! </h2>
+        
+      </section>
+ 
+     
+ 
+    
+
+      </section class="last">
+        
+ 
+ 
+        </form>
+      </section>
+   </main>
+ 
+   <footer>
+
+
+     <p>
+       <center>  &copy; 2024 - Direitos reservados a Luiza Nicolait   </center>
+    </p>
+   </footer>
+   <script>
+
+   var elemento =  document.getElementById("cabecalho"); /*declarar uma variavel*/
+   elemento.style.backgroundColor = 'purple';
+
+    //exemplo de creatElement
+    //Cria uma variavel e adiciona um elemento pego da tela
+   var elemento =  document.getElementById("cabecalho"); //pegamos o elemento
+   var h1 = document.createElement('h1'); //criamos o novo elemento e colocamos o nome da tag (criou o h1)
+   h1.textContent = "Exemplo"; 
+   h1.style.color = "purple";  //para mudar a cor da letra
+   elemento.append(h1); //pegar o elemento e adicionar*/
+    
+
+   //Exemplo de get Element para mudar a cor
+   var btnExemplo = document.getElementById('btn-click');
+   btnExemplo.addEventListener('click', () => {
+    alert("botão clicado");
+   });
+
+   //exemplo de quando uma tela é precionada
+   document.addEventListener('keydown', (event) => {
+      console.log(event.key);
+   })
+   </script>
+</body>
+</html>
